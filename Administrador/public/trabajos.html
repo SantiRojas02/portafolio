@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Servicios</title>
+  <meta name="description" content="free website template" />
+  <meta name="keywords" content="enter your keywords here" />
+  <meta lang="es">
+  <meta charset="utf-8"> 
+  <meta http-equiv="Content-Tipe" content="text/html" charset="utf-8"/>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+  <link rel="stylesheet" type="text/css" href="css/trabajos.css" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/modulos/trabajos.js"></script>
+</head>
+<body>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+        </ul>
+  <div class="contenedor">
+        
+    <center>
+        <h1>Servicios</h1>		
+        
+    
+          <form>
+                  
+            <p>Servicio Realizado </p>
+            <input type="text" name="servicio" id="servicio" placeholder="Servicio... ">
+            <br>
+            
+            <p>Precio </p>
+            <input type="text" name="precio" id="precio" placeholder="Precio...">
+                  
+            <p>Tiempo Estimado </p>             
+            <select name="tiempo" id="tiempo">
+              <option value="0">Seleccione el tiempo...</option>
+              <option value="15">15 minutos</option>
+              <option value="30">30 minutos</option>
+              <option value="45">45 minutos</option>
+              <option value="60">60 minutos</option>
+              <option value="75">75 minutos</option>
+              <option value="90">90 minutos</option>
+              <option value="105">105 minutos</option>
+              <option value="120">120 minutos</option>
+              <option value="135">135 minutos</option>
+              <option value="150">150 minutos</option>
+              <option value="165">165 minutos</option>
+              <option value="180">180 minutos</option>
+            </select> <br> <br>
+
+              
+            <button style="background-color: blue;" id="btn_enviar" type="button" class="btn btn-primary">ENVIAR</button>
+          </form><br>
+          <br>
+          +
+          <br>
+          </center>
+          
+          <center>
+                <table width="80%" border="1" id="tabla_trabajos">
+                    <thead>
+                        <tr>
+                            <th width="200px"><b> Servicio</b></th>
+                            <th width="200px"><b> Precio</b></th>
+                            <th width="100px"><b> Tiempo</b></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+          </center>  
+          <br>
+          <br>
+          <center>
+          <button style="background-color: whith;" id="btn_limpiar" type="button" class="btn btn-primary">Limpiar</button>
+          <button style="background-color: yellow;" id="btn_editar" type="button" class="btn btn-primary">Editar</button>
+          <button style="background-color: red;" id="btn_eliminar" type="button" class="btn btn-primary">Eliminar</button>
+          </center>    
+       
+      
+</body>
+</html>
