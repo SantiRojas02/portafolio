@@ -1,0 +1,27 @@
+body{
+	background-color: #303F3D ;
+	font-family: Arial;
+  
+}
+.content_item{
+  margin: 50px auto;
+	width: 600px;
+}
+table{
+  background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+thead{
+  background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+th{
+  padding: 20px;
+}
+h1{
+  text-align: center;
+  color: white;
+}
